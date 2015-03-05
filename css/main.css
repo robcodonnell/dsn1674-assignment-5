@@ -158,13 +158,29 @@ figure {
 
 .clearfixer:before,
 .clearfixer:after {
-    /* Generates a new element above and below */
-    content: " ";
-    display: table;
-    clear: both;
-    background-color: #fff;
+  content: " ";
+  display: table;
+  clear: both;
+  background-color: #fff;
 }
 div {
   border-top: 1px solid #cd5b34;
   border-bottom: 1px solid #cd5b34;
+}
+.peanuts {
+  width: 25%;
+  margin: 10px;
+}
+.beans {
+  width: 25%;
+  margin: 10px;
+}
+.lentils {
+  width: 25%;
+  margin: 10px;
+}
+.famouslegumes {
+  color: #000;
+}
+.peanutstext {
 }
