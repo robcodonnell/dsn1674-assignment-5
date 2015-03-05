@@ -35,15 +35,27 @@ nav ol {
   overflow: hidden;
   width: 100%;
 }
-nav ol li {
+nav li {
   float: left;
   padding: 10px;
   border: 1px solid #a33f3a;
   width: calc(100% / 3);
   text-align: center;
 }
-nav ol li a {
 
+nav li:hover a {
+  background-color: #a93f35;
+  color: #fff;
+}
+nav li:hover {
+  background-color: #a93f35;
+  color: #fff;
+}
+nav a:hover {
+  background-color: #a93f35;
+  color: #fff;
+}
+nav a {
   background-color: #cd5b34;
   color: #fff;
   text-decoration: none;
@@ -56,18 +68,32 @@ main {
   clear: both;
   float: left;
   width: 40%;
+  margin: 0 10px 10px 0;
 
 }
 .cereals {
   float: right;
-  width: 30%;
+  width: 40%;
+  clear: right;
+  margin: 7px;
+  border: 1px solid grey;
 }
 .quinoa {
   float: right;
-  width: 30%;
+  width: 40%;
+  clear: right;
+  margin: 7px;
+  border: 1px solid grey;
 }
 .p1 {
- margin: 0 0 0 10px;
+  font-size: 0.93rem;
+  line-height: 1.4rem;
+  margin: 0;
+}
+.p2 {
+  font-size: 0.93rem;
+  line-height: 1.4rem;
+  margin: 0;
 }
 .left-grain {
   float: left;
@@ -76,4 +102,11 @@ main {
 .right-grain {
   float: right;
   width: 7%;
+}
+.article1 {
+  margin: 0;
+  float: left;
+}
+.article2 {
+  float: left;
 }
