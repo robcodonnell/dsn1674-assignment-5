@@ -42,7 +42,6 @@ nav li {
   width: calc(100% / 3);
   text-align: center;
 }
-
 nav li:hover a {
   background-color: #a93f35;
   color: #fff;
@@ -109,4 +108,53 @@ main {
 }
 .article2 {
   float: left;
+}
+h2 {
+  text-align: center;
+}
+.cornpic {
+  width: 100%;
+}
+.rice {
+  width: 100%;
+  float: left;
+  clear: both;
+}
+.ricepic {
+  float: left;
+  width: 50%;
+}
+.oats {
+  width: 100%;
+  float: right;
+  clear: both;
+}
+.oatspic {
+  float: right;
+  width: 50%;
+}
+figcaption {
+  clear: both;
+  text-align: center;
+}
+figure {
+  margin: 0;
+}
+.wrapper {
+  background-color: #dc8252;
+}
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+.clearfixer:before,
+.clearfixer:after {
+    /* Generates a new element above and below */
+    content: " ";
+    display: table;
+    clear: both;
+    background-color: #fff;
 }
