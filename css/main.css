@@ -67,21 +67,21 @@ main {
   clear: both;
   float: left;
   width: 40%;
-  margin: 0 10px 10px 0;
+  margin: 0 10px 0 0;
 
 }
 .cereals {
   float: right;
   width: 40%;
   clear: right;
-  margin: 7px;
+  margin: 7px 0 0 5px;
   border: 1px solid grey;
 }
 .quinoa {
   float: right;
   width: 40%;
   clear: right;
-  margin: 7px;
+  margin: 7px 0 0 5px;
   border: 1px solid grey;
 }
 .p1 {
@@ -108,11 +108,13 @@ main {
 }
 .article2 {
   float: left;
+  margin: 10px 0;
 }
 h2 {
   text-align: center;
+  color: #fff;
 }
-.cornpic {
+.corn {
   width: 100%;
 }
 .rice {
@@ -136,6 +138,10 @@ h2 {
 figcaption {
   clear: both;
   text-align: center;
+  color: #fff;
+  font-style: italic;
+  font-size: 0.75rem;
+  padding: 2px 0 15px 0;
 }
 figure {
   margin: 0;
@@ -157,4 +163,8 @@ figure {
     display: table;
     clear: both;
     background-color: #fff;
+}
+div {
+  border-top: 1px solid #cd5b34;
+  border-bottom: 1px solid #cd5b34;
 }
