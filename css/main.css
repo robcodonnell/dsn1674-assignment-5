@@ -205,7 +205,8 @@ aside {
   font-size: 0.75rem;
   background-color: #cd5b34;
   color: #f1c4ac;
-  padding: 5px;
+  padding: 4px;
+  margin: 15px 0 0 0;
 }
 .clearfixest:before,
 .clearfixest:after {
