@@ -214,3 +214,8 @@ aside {
   display: table;
   clear: both;
   background-color: #fff;
+}
+.cerealss {
+border-right: 0px;
+border-left: 0px;
+}
